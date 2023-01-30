@@ -38,7 +38,6 @@ namespace SistemaEstacionamento.models;
                 int horas = 0;
                 decimal valorTotal = 0; 
                 
-                Console.WriteLine("Insira a quantidade de horas que carro ficou parado:");
                 horas = Convert.ToInt32(Console.ReadLine());
                 valorTotal = precoInicial + (precoPorHora * horas);
 
